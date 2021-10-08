@@ -1,1 +1,6 @@
-asdfsdf
+
+// The plan for this g-code chunk is to set the zero point of all axes in the middle, then print a disc shape upon a cylinder
+G91
+G2
+
+G1 X30   //Move from zero center position to top edge of cyldiner
